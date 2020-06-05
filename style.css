@@ -3,3 +3,19 @@ body {
   width: 50%;
   height: 75%;
 }
+
+form {
+  border: 1px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.numbers{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.functions {
+  display: flex;
+  flex-wrap: wrap;
+}
